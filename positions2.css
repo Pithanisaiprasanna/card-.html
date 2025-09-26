@@ -1,0 +1,78 @@
+.first{
+  border: 2px solid purple;
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
+.grand-parent{
+  width: 500px;
+  height: 500px;
+  border: 5px solid red;
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
+.container{
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+   position: absolute; 
+   top: 100px;
+   left: 100px;
+  
+  /* right: 0;
+  bottom:0;
+  right:0; */
+  /* position: relative; */
+  /* top: -100px;
+  left: -100px;
+  bottom: -100px */
+ /* right: -100px;  */
+ /* padding:20px; */
+}
+.img{
+  width: 400px;
+  height: 200px;
+  border: 5px solid red;
+  border-radius: 50%;
+  overflow: hidden;
+  bottom: 0;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* p{
+  position: absolute;
+  top: 100px;
+  left: 150px;
+
+} */
+h1{
+  text-align:center;
+  background-color: rgb(220, 136, 26);
+  padding: 10px;
+}
+ .nav{
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  position: fixed;
+
+  top:0px;
+  /* left:opx; */ 
+}
+.item{
+  margin-left: 100px;
+  padding: 10px;
+
+}
+h1{
+  position: sticky;
+  top:50px;
+} 
