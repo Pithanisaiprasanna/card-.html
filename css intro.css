@@ -1,0 +1,126 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  
+}
+
+/* Header Section */
+h2 {
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+nav {
+  background-color: #2c3e50;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #ffd700;
+  transition: 0.3s;
+}
+
+/* Section Headings */
+h3 {
+  color: #34495e;
+}
+
+/* Image Styling */
+.img-con img {
+  border-radius: 50%;
+  border: 3px solid #2c3e50;
+  margin-top: 10px;
+ 
+}
+
+/* Table Styling */
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 10px auto;
+}
+
+th, td {
+  border: 1px solid #888;
+  padding: 10px;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+/* Skills List */
+ul, ol {
+  margin-left: 40px;
+}
+
+/* Contact Form */
+form {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #34495e;
+}
+
+/* Audio & Video Sections */
+audio, video {
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+iframe {
+  width: 80%;
+  height: 300px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+}
+
+/* Center Everything Nicely */
+center {
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  
+}
+p{
+  color:lightslategray;
+}
+
+.tab {
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+  margin: 30px; 
+  background-color:lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.tab:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Hide radio buttons */
+#eat, #drink {
+  display: none;
+}
+
+/* Hide both sections by default */
+.content {
+  display: none;
+  width: 400px;
+  height: 450px;
+  border: 2px solid black;
+  background: lightgray;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+/* Show Eat section when Eat is selected */
+#eat:checked ~ .eat-content {
+  display: block;
+}
+
+/* Show Drink section when Drink is selected */
+#drink:checked ~ .drink-content {
+  display: block;
+}

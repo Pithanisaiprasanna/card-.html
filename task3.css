@@ -1,0 +1,61 @@
+  
+    body {
+      font-family: Arial, sans-serif;
+      background: white;
+      margin: 0;
+      padding: 20px; 
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+     .product {
+      background: white;
+      border: 1px solid white ;
+      border-radius: 6px;
+     overflow: hidden;
+      position: relative;
+      transition: transform 0.3s;
+    } 
+
+    .product img {
+      width: 100%;
+      display: block;
+    }
+
+    .product-info {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .product-info h4 {
+      margin: 5px 0;
+      font-size: 16px;
+      font-weight: normal;
+    }
+
+    .product-info p {
+      font-weight: bold;
+      color: black;
+    }
+
+    /* Labels (New, Sale) */
+    .label {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      background:black;
+      color: white;
+      padding: 2px 8px;
+      font-size: 12px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+
+   
+   

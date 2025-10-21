@@ -1,0 +1,48 @@
+body {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      background: black;
+      padding: 10px 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px black;
+    }
+
+    .tool {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 12px;
+      color: white;
+      font-size: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .tool i {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .tool:hover {
+      color: lightgreen;
+    }
+
+    .green {
+      color: lightgreen;
+    }
+
+    .red {
+      color: orangered;
+    }
+  
+ 

@@ -1,0 +1,33 @@
+body {
+  font-family: "Times New Roman", serif;
+  background-color: #fdfbf7;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card {
+  width: 250px;
+}
+
+.card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+
+.card p {
+  font-size: 14px;
+  
+  margin: 10px 0;
+}

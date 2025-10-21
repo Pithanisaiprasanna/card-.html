@@ -1,0 +1,21 @@
+.skill {
+  margin-bottom: 20px;
+}
+
+ .bar {
+  background-color: #ddd;
+  border-radius: 25px;
+  /* overflow: hidden; */
+  height: 20px;
+  width: 800px;
+} 
+
+.fill {
+  background-color: #0097a7;
+  color: white;
+  text-align: right;
+  padding-right: 10px; 
+  height: 100%;
+  line-height: 20px;
+  border-radius: 25px ; 
+} 

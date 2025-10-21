@@ -1,0 +1,38 @@
+/* .container > .item{
+  background-color: blue;
+  color: aliceblue;
+  margin: 10px;
+} */
+
+/* div>p{ 
+  color: brown;
+} */
+/* div+p{
+  color: blueviolet;
+} */
+/* div~p{
+  color: blueviolet; 
+} */
+
+
+
+
+div{
+  width: 200px;
+  height: 200px;
+  background-color: darksalmon;
+  margin:10px;
+  /* display: inline; */
+  /* display: inline-block; */
+  /* display: inline; */
+  /* display: none; */
+  visibility: hidden;
+}
+span{
+  width: 200px;
+  height: 200px;
+  margin:10px;
+  background-color: crimson;
+  /* display: block; */
+  display: inline-block;
+}

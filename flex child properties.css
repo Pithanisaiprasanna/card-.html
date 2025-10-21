@@ -1,0 +1,63 @@
+/* .container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.image-container {
+  width: 23%;
+  margin: 1%;
+  float: left;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  
+}
+
+.image-container p {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: black;
+  color: white;
+  padding: 4px 8px;
+  font-size: 14px;
+} */
+.container {
+  display: flex;              /* ✅ This makes it FLEX */
+  flex-wrap: wrap;            /* allows wrapping on next line */
+  justify-content: center;    /* center all flex items */
+  align-items: flex-start;    /* align items at top */
+  gap: 10px;                  /* spacing between items */
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.image-container {
+  flex: 1 1 22%;              /* ✅ Flex grow, shrink, basis (width) */
+  max-width: 23%;             /* prevent too large */
+  position: relative;
+  box-sizing: border-box;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+.image-container p {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 4px;
+}
